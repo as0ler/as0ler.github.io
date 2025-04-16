@@ -1,8 +1,125 @@
-<html>
-    <head>
-        <title>Research</title>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research - 0xmurphy</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
         <h1>0xmurphy</h1>
-    </body>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle Menu">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html"><i class="fas fa-home"></i><span>Home</span></a></li>
+          <li><a href="research.html" class="active"><i class="fas fa-search"></i><span>Research</span></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="research-intro">
+        <h2>Our Research</h2>
+        <p>We conduct cutting-edge research in mobile security, focusing on vulnerability analysis, exploit development, and security tooling. Our work contributes to the broader security community through open-source projects and publications.</p>
+      </section>
+
+      <section class="research-areas">
+        <h3>Research Areas</h3>
+        <div class="research-grid">
+          <div class="research-card">
+            <i class="fas fa-shield-alt"></i>
+            <h4>Mobile Security</h4>
+            <p>Advanced research in Android and iOS security, including application security, and runtime analysis.</p>
+          </div>
+          <div class="research-card">
+            <i class="fas fa-microchip"></i>
+            <h4>ARM Architecture</h4>
+            <p>Deep dive into ARM architecture security.</p>
+          </div>
+          <div class="research-card">
+            <i class="fas fa-tools"></i>
+            <h4>Security Tooling</h4>
+            <p>Development of innovative security tools and frameworks for mobile security analysis and penetration testing.</p>
+          </div>
+          <div class="research-card">
+            <i class="fas fa-book"></i>
+            <h4>Training</h4>
+            <p>Providing cybersecurity awareness sessions and specialized mobile security trainings to strengthen the capabilities of your employees and executives</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="publications">
+        <h3>Recent Publications</h3>
+        <div class="publication-list">
+          <div class="publication-item">
+            <h4>R2Con - A Hitchhikers Guide for Unity: Reversing iOS games</h4>
+            <p class="publication-meta">September 2023</p>
+            <p class="publication-abstract">How to reverse engineer and dinamically manipulate Unity games in iOS.</p>
+            <a href="https://youtu.be/OSeNuB2Ob3s?si=SpKfwzrcf62wKqI2" class="btn secondary">Go to publication</a>
+          </div>
+          <div class="publication-item">
+            <h4>RingZero - Mobile Reverse Engineering with R2frida Training</h4>
+            <p class="publication-meta">February 2023 (Texas) / August 2023 (Vegas)</p>
+            <p class="publication-abstract">How to reverse engineer iOS mobile applications using r2frida.</p>
+            <a href="https://ringzer0.training/doubledown24-mobile-reverse-engineering-with-r2frida/" class="btn secondary">Go to publication</a>
+          </div>
+          <div class="publication-item">
+            <h4>R2Con - r2Frida Kung Fu</h4>
+            <p class="publication-meta">September 2021</p>
+            <p class="publication-abstract">Pratical perspective for reverse engineering iOS applications using r2frida.</p>
+            <a href="https://www.youtube.com/watch?v=6WqaxMKn1Qg&t=1821s" class="btn secondary">Go to publication</a>
+          </div>
+          <div class="publication-item">
+            <h4>R2Con - Mobile Reverse Engineering with R2frida Training</h4>
+            <p class="publication-meta">September 2019 / September 2020</p>
+            <p class="publication-abstract">How to bypass security detection mechanisms in iOS devices using r2frida.</p>
+            <a href="https://www.youtube.com/watch?v=sgNDYgLyAP4&t=6700s" class="btn secondary">Go to publication</a>
+          </div>
+          <div class="publication-item">
+            <h4>AUSAPE - Hackeando a SAPiendas</h4>
+            <p class="publication-meta">June 2018</p>
+            <p class="publication-abstract">Hacking a SAP system through a VPN built in a compromise Android mobile phone.</p>
+            <a href="https://www.youtube.com/watch?v=ot229RS4MrI" class="btn secondary">Go to publication</a>
+          </div>
+          <div class="publication-item">
+            <h4>R2Clutch, decrypting iOS applications – Speaker at R2Con Conference</h4>
+            <p class="publication-meta">September 2016</p>
+            <p class="publication-abstract">Building an application to decrypt iOS applications using Radare2 via r2pipe.</p>
+            <a href="https://www.youtube.com/watch?v=OlzUdbvDLuA" class="btn secondary">Go to publication</a>
+          </div>
+          <div class="publication-item">
+            <h4>V Jornadas CCN-CERT - iPhone Attacks</h4>
+            <p class="publication-meta">December 2011</p>
+            <p class="publication-abstract">Building an environment to compromise an iPhone using a kill-chain of different vulnerabilities to steal sensitive information from the device without any user interaction.</p>
+            <a href="https://jornadas.ccn-cert.cni.es/es/ediciones-anteriores/v-jornadas-stic-2011/v-jornadas-ponencias-pdf" class="btn secondary">Go to publication</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <p>Interested in our research? Contact us at work at 0xmurphy.me</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 0xmurphy 2025</p>
+        <div class="social-links">
+          <a href="https://www.github.com/as0ler" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/as0ler" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/alex.soler.alvarez" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
 </html>
